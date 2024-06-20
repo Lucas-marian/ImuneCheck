@@ -1,0 +1,49 @@
+body{
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0%;
+
+}
+
+.central{
+  position: absolute;
+  height: 70%;
+  width: 30%;
+  top: 20%;
+  left: 55%;
+  background-color: #ff9216;
+  border-radius: 9px;
+
+}
+
+.titulo2{
+  font-size: 50px;
+  position: absolute;
+  left: 40%;
+
+}
+
+.inputSenha{
+   position: absolute;
+   top: 45%;
+   left: 23%;
+   height: 5%;
+   width: 50%;
+
+}
+
+.inputGmail{
+   position: absolute;
+   top:60%;
+   left: 23%;
+   height: 5%;
+   width: 50%;
+
+}
+
+.senha1{
+   position: absolute;
+   top:41%;
+   left: 23%;
+
+}

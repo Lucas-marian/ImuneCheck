@@ -1,0 +1,40 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 1rem 2rem;
+    width: 106%; 
+
+}
+
+
+.navbar-logo h1 {
+    color: blue;
+    margin: 0;
+}
+
+.navbar-links, .navbar-auth {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links a, .navbar-auth button {
+    color: blue;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.navbar-links a:hover, .navbar-auth button:hover {
+    color: #ddd;
+}
+
+.navbar-auth button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}

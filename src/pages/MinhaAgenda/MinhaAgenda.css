@@ -1,0 +1,121 @@
+.dashboard {
+    display: flex;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f5f5f5;
+  }
+  
+  .header input[type="search"] {
+    flex-grow: 1;
+    margin-right: 1rem;
+    padding: 0.5rem;
+  }
+  
+  .header button {
+    padding: 0.5rem 1rem;
+  }
+  
+  .dashboard-content {
+    padding: 1rem;
+  }
+  
+
+  .folders-section {
+    display: flex;
+    gap: 10px; /* Espaço entre os botões */
+  }
+  
+  .folders-section button {
+    flex: 1; /* Distribui o espaço igualmente entre os botões */
+    padding: 0.5rem 1rem;
+    background-color: blue; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none;
+    cursor: pointer;
+  }
+
+
+  .folders-section button:hover {
+    background-color: blue /* Cor de fundo ao passar o mouse */
+  }
+  
+  
+  .recent-files-section .file-card {
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+  }
+  
+  .right-sidebar {
+    width: 400px; /* Aumenta a largura da barra lateral */
+    padding: 1rem;
+    background-color: #f5f5f5;
+  }
+  
+  .right-sidebar-section {
+    margin-bottom: 1rem;
+  }
+  
+  .calendar-section, .task-section, .storage-section {
+    margin-bottom: 1rem;
+  }
+  
+  .calendar-wrapper {
+    width: 100%; /* Garante que o calendário ocupa toda a largura da seção */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .calendar {
+    width: 100%;
+  }
+  
+  .task-card, .storage-chart {
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  
+  form input[type="text"], form input[type="date"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  form fieldset {
+    border: none;
+    padding: 0;
+  }
+  
+  form fieldset label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  form button {
+    padding: 0.5rem 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: blue;
+  }
+  

@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container-central{
+    position: absolute;
+    height: 80%;
+    width: 30%;
+    bottom: 10%;
+    left: 37%;
+    background-color: rgb(168, 255, 241);
+    border-radius: 9px;
+  }
+  
+  .titulo-recuperacao{
+    position: relative;
+    left: 27%;
+  }
+
+.label3-1{
+  position: relative;
+  left: 13%;
+  top: 3%; 
+}
+
+.input-senha-nova{
+  position: relative;
+  height: 35px;
+  width:70%;
+  right: 5%;
+  top: 10%;
+  border-radius: 9px;
+  padding-left: 5px;
+}
+
+.label4-2{
+  position: relative;
+  right: 75%;
+  top:20%; 
+}
+
+.input-senha-nova2{
+  position: relative;
+  height: 35px;
+  width:70%;
+  left: 12%;
+  top: 20%;
+  border-radius: 9px;
+  padding-left: 5px;
+}
+
+  .botao-recuperar{
+    position: relative;
+    height: 10%;
+    width: 50%;
+    left: 25%;
+    top: 50%;
+    border-radius: 18px;
+  }
+  
+  .link{
+    position: relative;
+    top: 35%;
+    left: 28%;
+  }

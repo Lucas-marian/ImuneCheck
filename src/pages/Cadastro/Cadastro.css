@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container-central{
+    position: absolute;
+    height: 80%;
+    width: 30%;
+    bottom: 10%;
+    left: 37%;
+    background-color: rgb(168, 255, 241);
+    border-radius: 9px;
+  }
+  
+  .titulo-cadastro{
+    position: relative;
+    left: 27%;
+  }
+  
+  .label{
+    position: relative;
+    left: 17%;
+  }
+  
+  .input-nome{
+    position: relative;
+    height: 35px;
+    width:70%;
+    left: 6%;
+    top: 5%;
+    border-radius: 9px;
+    padding-left: 5px;
+  }
+  
+  .icone2{
+    position: absolute;
+    top: 27%;
+    left: 78%;
+  }
+  
+  .label2{
+    position: relative;
+    right: 64%;
+    top: 12%;
+  }
+  
+  .input-gmail1{
+    position: relative;
+    height: 35px;
+    width:70%;
+    left: 15%;
+    top: 10%;
+    border-radius: 9px;
+    padding-left: 5px;
+  }
+  
+  .icone3{
+    position: absolute;
+    top: 39%;
+    left: 78%;
+  }
+  
+  .label3{
+    position: relative;
+    right: 55%;
+    top: 17%;
+  }
+  
+  .input-senha{
+    position: relative;
+    height: 35px;
+    width:70%;
+    left: 15%;
+    top: 15%;
+    border-radius: 9px;
+    padding-left: 5px;
+  }
+  
+  .icone1{
+    position:absolute;
+    top: 50%;
+    left: 78%;
+  }
+  
+  .label4{
+    position: relative;
+    right: 55%;
+    top: 22%;
+  }
+  
+  .input-cpf{
+    position: relative;
+    height: 35px;
+    width:70%;
+    left: 15%;
+    top: 20%;
+    border-radius: 9px;
+    padding-left: 5px;
+  }
+  
+  .icone4{
+    position: absolute;
+    top: 62%;
+    left: 78%;
+  }
+  
+  .botao-cadastro{
+    position: relative;
+    height: 10%;
+    width: 50%;
+    left: 25%;
+    top: 30%;
+    border-radius: 18px;
+  }
+  
+  .link{
+    position: relative;
+    top: 35%;
+    left: 28%;
+  }
+  
+  

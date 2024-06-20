@@ -1,0 +1,107 @@
+/* Ajustando o contêiner do carrossel */
+
+body{
+  height: 100%;
+  width: 90%;
+  padding: 0%;
+
+}
+
+.carousel-container {
+  position: relative;
+  width: 120%;
+  height: 100vh; /* Fazendo o carrossel ocupar a altura inteira da primeira parte da tela */
+  overflow: hidden;
+  z-index: 1;
+}
+
+.carousel-container img {
+  width: 100%;
+  height: 120vh; /* Fazendo a imagem ocupar a altura inteira do contêiner */
+  object-fit: cover; /* Fazendo a imagem cobrir todo o contêiner, mantendo a proporção */
+}
+
+.carousel-item img {
+  object-fit: cover;
+  width: 110%;
+  height: 120%;
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+
+
+.carousel-item {
+  width: 100%;
+  height: 100%;
+}
+
+.logo-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.5); /* Fundo transparente */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 200px; /* Tamanho quadrado da div */
+  height: 100px; /* Tamanho quadrado da div */
+}
+
+.logo-overlay img {
+  max-width: 150%; /* Imagem dentro da div quadrada */
+  max-height: 100%; /* Imagem dentro da div quadrada */
+  object-fit: contain; /* Garantir que a imagem não distorça */
+}
+
+.container {
+  margin-top: 100vh; /* Começa após o carrossel */
+  padding: 2rem;
+  background-color: #f4f4f4;
+}
+
+/* Estilo para as seções específicas */
+.parte2, .parte3, .parte4, .parte5, .parte6 {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.parte2 img, .parte3 img, .parte4 img, .parte5 img, .parte6 img {
+  width: 45%;
+  height: auto;
+}
+
+.parte2 div, .parte3 div {
+  width: 50%;
+}
+
+.parte2 {
+  flex-direction: row-reverse; /* Imagem à direita, texto à esquerda */
+}
+
+.parte3 {
+  flex-direction: row-reverse; /* Imagem à direita, texto à esquerda */
+}
+
+.app-section {
+  padding: 2rem;
+  background-color: #fff;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.app-section h2 {
+  margin-bottom: 1rem;
+}
+
+.app-section p {
+  margin: 0 0 1rem;
+}
